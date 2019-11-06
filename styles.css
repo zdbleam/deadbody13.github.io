@@ -5,24 +5,21 @@
 }
 
 body {
-    background-color: rgb(230, 230, 230);
     color: rgb(56, 56, 56);
-    padding: 10px;
     font-size: 20px;
 }
 body p {
     padding-left: 0px;
 }
 body img {
-    padding-right: 10px;
+    padding: 10px;
     float: left;
 }
 .bodyContainer {
+    padding: 20px;
     border: 1px solid black;
-    padding: 10px;
+    background-color: rgb(230, 230, 230);
     overflow: hidden;
-    border-left: 30px solid rgb(15, 15, 85);
-    border-right: 50px solid rgb(115, 130, 134);
 }
 .bodyBlog {
     border: 1px solid black;
@@ -31,6 +28,10 @@ body img {
     border-left: 30px solid rgb(15, 15, 85);
     border-right: 50px solid rgb(115, 130, 134);
     height: 100%;
+}
+
+.container {
+    border: 1px soild black;
 }
 
 header {
@@ -44,15 +45,18 @@ header {
 }
 header h1 {
     line-height: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header h2 {
     line-height: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .headerContainer {
-    border: 2px solid black;
+    border: 1px solid black;
     border-bottom: 0px;
     background-image: linear-gradient(to right, rgb(15, 15, 85), rgb(115, 130, 134));
-    padding-bottom: 0px;
     line-height: 0em;
 }
 
@@ -67,6 +71,7 @@ html {
     background-color: #333;
     overflow: hidden;
     width: 100%;
+    border-top: 1px solid black;
   }  
   /* Style the links inside the navigation bar */
 .navbar a {
@@ -104,9 +109,19 @@ html {
 }
 .profileImageContainer h3 {
     line-height: 1.0em;
+    padding: 0px;
+    margin-top: 10px;
 }
 .profileImageContainer ul {
+    float: left;
     line-height: 1.0em;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;  
+}
+.profileImageContainer img {
+    float: left;
+    width: 20%;
 }
 
 .textBox {
