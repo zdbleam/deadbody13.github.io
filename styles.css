@@ -4,6 +4,7 @@
     width: 20%;
 }
 
+/* Body */
 body {
     color: rgb(56, 56, 56);
     background-color: white;
@@ -12,22 +13,40 @@ body {
     padding: 0%;
     margin: 0%;
 }
+body a {
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+}
 body h2 {
     padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+}
+body h3 {
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin: 0px;
 }
 body p {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 body ul {
-    padding-left: 70px;
-    padding-right: 70px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+body ul ul {
+    margin: 0px;
 }
 body img {
     padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
     float: left;
 }
 .bodyBlog {
@@ -39,6 +58,7 @@ body img {
     height: 100%;
 }
 
+/* Header */
 header {
     display: inline-block;
     background-image: linear-gradient(to right, rgb(15, 15, 85), rgb(115, 130, 134));
@@ -67,7 +87,7 @@ html {
     width: 100%;
 }
 
-/* Add a black background color to the top navigation */
+/* Navigation Bar */
 .navbar {
     display: inline-block;
     line-height: 1em;
@@ -77,7 +97,6 @@ html {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }  
-  /* Style the links inside the navigation bar */
 .navbar a {
     float: left;
     color: #f2f2f2;
@@ -86,12 +105,10 @@ html {
     text-decoration: none;
     font-size: 17px;
 }
-/* Change the color of links on hover */
 .navbar a:hover {
     background-color: #ddd;
     color: black;
 }
-/* Add a color to the active/current link */
 .navbar a.active {
     background-color: rgb(72, 72, 112);
     color: white;
@@ -102,8 +119,7 @@ html {
     text-align: center;
 }
 
-
-
+/* for Blog page */
 .profileImageContainer {
     float: left;
     width: 80%;
@@ -112,20 +128,25 @@ html {
     line-height: 1.0em;
 }
 .profileImageContainer h3 {
+    display: block;
     line-height: 1.0em;
-    padding: 0px;
+    padding-top: 0px;
     margin-top: 10px;
 }
 .profileImageContainer ul {
-    float: left;
+    display: inline-block;
     line-height: 1.5em;
     padding: 0px;
+    padding-left: 10px;
     margin: 0px;
     margin-left: 20px;  
 }
 .profileImageContainer img {
     float: left;
     width: 250px;
+    padding: 5px;
+    padding-left: 55px;
+    padding-right: 20px;
 }
 .profileImageSeparator {
     display: inline-block;
@@ -135,6 +156,24 @@ html {
     margin-left: 2%;
 }
 
+/* For documents page */
+.documents a {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.documents h3 {
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+/* For embed Google Doc */
 .textBox {
     width: 100%;
     height: 1000px;
