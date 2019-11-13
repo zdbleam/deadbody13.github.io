@@ -189,7 +189,7 @@ html {
         margin-bottom: 200px;
     }
     .mobileIndexImage {
-        display: block;
+        display: inline-block;
         width: 100%;
     }
 
