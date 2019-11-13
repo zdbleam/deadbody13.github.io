@@ -188,9 +188,15 @@ html {
         margin: 0%;
         margin-bottom: 200px;
     }
-    .mobileIndexImage {
+    .mobileIndexImageLeft {
         display: inline-block;
         width: 100%;
+    }
+    .mobileIndexImageRight {
+        display: inline-block;
+        width: 100%;
+        margin-left: 100%;
+        margin-right: 100%;
     }
 
   }
