@@ -60,6 +60,7 @@ body {
     height: auto;
     margin: 0px;
     padding: 0px;
+    padding-top: 50px;
     display: inline-block;
 }
 .header h1 {
@@ -68,6 +69,7 @@ body {
     margin-left:  125px;
     margin-right: 125px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, -5px 2.5px 10px rgb(80, 62, 13);
+    font-size: 50px;
 }
 .header h2 {
     margin-top: 10px;
@@ -84,6 +86,9 @@ html {
     width: 100%;
     display: inline-block;
     margin-bottom: 50px;
+}
+.indexImage figure img {
+    width: 500px;
 }
 
 /* Navigation Bar */
@@ -125,44 +130,35 @@ html {
     border-bottom: 1px solid black;
 }
 
-/* for Blog page */
-.profileImageContainer {
-    width: 80%;
-    margin: 10px;
-    line-height: 1.0em;
-    padding: 0px;
-}
-.profileImageContainer h3 {
-    display: block;
-    line-height: 1.0em;
-    margin-left: 0px;
-    padding: 0px;
-}
-.profileImageContainer ul {
-    display: list-item;
-    margin: 0px;
-    padding: 0px;
-}
-.profileImageContainer ul li {
-    line-height: 1.5em;
-    margin: 0px;
-    padding: 0px;
-}
-.profileImageContainer img {
-    display: block;
+.column {
     float: left;
-    width: 350px;
-    margin-right: 40px;
-    padding: 0px;
-    box-shadow: -5px 5px 15px rgb(184, 184, 184);
+    width: 33%;
 }
-.profileImageSeparator {
-    display: inline-block;
-    width: 96%;
-    height: 2px;
-    background-color: rgb(212, 212, 212);
-    margin-left: 2%;
-    margin-top: 30px;
+.column h3 {
+    margin-left: 6%;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 26px;
+}
+.column p {
+    margin-left: 6%;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    line-height: 1.0em;
+}
+.column img {
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+}
+  
+  /* Clear floats after the columns */
+.row {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* For embed Google Doc */
@@ -183,20 +179,91 @@ html {
         color: rgb(56, 56, 56);
         background-color: white;
         font-size: 20px;
-        width: auto;
+        width: 100%;
         padding: 0%;
         margin: 0%;
-        margin-bottom: 200px;
     }
-    .mobileIndexImageLeft {
-        display: inline-block;
+    .indexImage {
         width: 100%;
     }
-    .mobileIndexImageRight {
-        display: inline-block;
+    .indexImage figure img {
         width: 100%;
-        margin-left: 100%;
-        margin-right: 100%;
+        margin: 0px;
+        padding: 0px;
     }
+    .indexImage figure figcaption {
+        font-size: 10px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .header {
+        width: 100%;
+        font-size: 10px;
+    }
+    .content {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        font-size: 8px;
+    }
+    .content {
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    .content h1 {margin-left: 10px;
+        margin-right: 0px;
+    }
+    .content h2             {
+        margin-left: 10px;
+        margin-right: 0px;
+        font-size: 26px;
+    }
+    .content h3             {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .content h4             {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .content p              {
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-top: 0px;
+        line-height: 1.5em;
+        font-size: 20px;
+    }
+    .content img            {
+        margin: 0px;
+        padding: 0px;
+    }
+    .content ul li          {
+        margin-left: 10px;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+    .content a              {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .header h1 {
+        font-size: 26px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .header h2 {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .navbar {
+        margin-left: 0px;
+    }
+    .navbar a {
+        font-size: 14px;
+        padding: 12px 7px;
+    }
+    
+
 
   }
