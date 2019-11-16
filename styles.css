@@ -1,72 +1,131 @@
+/* Alphabetized*/
+.blogImage {
+    display: block;
+    width: 20%;
+}
+
+/* Body */
 body {
-    margin: 0px;
-    padding: 0px;
-    color: black;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.centerImage {
-    width: 100%;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-}
-
-.column {
-    float: left;
-    padding: 0px;
-    height: 100%; /* Should be removed. Only for demonstration */
-    background-color: #1e2019;
-}
-
-.profColumn {
-    float: left;
-    width: 32%;
-    margin: 0px;
-    margin-top: 10px;
-    height: 100%;
-    font-size: 20px;
-}
-.profColumn h2 {
-    text-align: center;
-}
-.profColumn p {
-    margin-left: 25px;
-}
-  
-.left {
-    width: 10%;
-    padding: 0px;
-    background-color: #1e2019;
-    height: 100%;
-  }
-  
-.right {
-    width: 90%;
+    top: 0;
+    color: rgb(56, 56, 56);
     background-color: white;
-    flex: _2;
+    font-size: 20px;
+    width: auto;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 200px;
 }
-.content {
-    padding-left: 25px;
-    font-size: 26px;
-    text-align: justify;
+.content                {margin-top: 50px;}
+.content h1             {margin-left: 125px;margin-right: 125px;}
+.content h2             {margin-left: 125px;margin-right: 125px; margin-bottom: 10px;}
+.content h3             {margin-left: 125px;margin-right: 125px;}
+.content h4             {margin-left: 125px;margin-right: 125px;}
+.content p              {margin-left: 125px;margin-right: 125px;margin-top: 0px;line-height: 1.5em;}
+.content ul,li          {margin-left: 100px;margin-right: 125px;}
+.content a              {margin-left: 125px;margin-right: 125px;}
+.content figure {
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 0px;
 }
+.content figcaption{
+    padding: 0px;
+    margin-left: 125px;
+    font-style: italic;
+    font-size: 16px;
+}
+.content figure img {
+    box-shadow: -4px 6px 5px rgb(77, 77, 77);
+    margin-right: 25px;
+    padding: 0px;
+}
+
 .contentImageRight {
-    margin-left: 25px;
-    font-size: 26px;
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
     text-align: justify;
+    font-size: 26px;
 }
 .contentImageRight img {
     float: right;
+    width: 600px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.contentImageRight figure {
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.contentImageRight figure img {
+    float: right;
+    width: 600px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    box-shadow: -4px 6px 5px rgb(77, 77, 77);
+}
+.contentImageRight figure figcaption {
+    padding: 0px;
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 16px;
+}
+.contentImageRight:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contentImageLeft {
+    margin-right: 50px;
+    margin-left: 125px;
+    text-align: justify;
+}
+.contentImageLeft ul,li {
+    margin-left: 25px;
+}
+.contentImageLeft img {
+    float: left;
+    width: 600px;
     margin-left: 50px;
     margin-right: 50px;
 }
+.contentImageLeft figure {
+    float: left;
+    margin: 0px;
+    margin-right: 50px;
+}
+.contentImageLeft figure iframe {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.contentImageLeft figure figcaption {
+    padding: 0px;
+    font-style: italic;
+    font-size: 16px;
+}
+.contentImageLeft:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+/* For documents page */
+.documents      {margin-top: 50px;}
+.documents p    {margin-left: 125px;margin-right: 200px;}
+.documents a    {margin-left: 150px;margin-right: 200px;line-height: 1.5em;}
+.documents h3   {margin-left: 125px;margin-right: 200px;}
+
+/* Header */
 .header {
-    background-color: #274c77;
     background-image: url("images/solarPanel.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -84,72 +143,127 @@ body {
 .header h1 {
     margin-top: 70px;
     margin-bottom: 0px;
-    margin-left:  10%;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left:  125px;
+    margin-right: 125px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, -5px 2.5px 10px rgb(80, 62, 13);
     font-size: 55px;
 }
 .header h2 {
     margin-top: 10px;
-    margin-left:  10%;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left:  125px;
+    margin-right: 125px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, -5px 2.5px 10px rgb(80, 62, 13);
     margin-bottom: 0px;
     font-size: 40px;
 }
 
 html {
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
 }
 
-.navPane {
-    background-color: rgb(34, 34, 27);
-    margin: 0px;
-    padding: 0px;
+.indexImage {
     width: 100%;
-    height: 100%;
-    font-size: 16px;
+    display: inline-block;
+    text-align: justify;
 }
-.navPane ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #1e2019;
+.indexImage h2 {
+    margin-right: 0px;
+    padding: 0px;
 }
-.navPane li {
+.indexImage p {
+    margin-right: 50px;
+    padding: 0px;
+}
+.indexImage iframe {
+    float: left;    
+    margin-left: 125px;
+    margin-right: 25px;
+    border: 1px solid black;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    width: auto;
+    margin: 0px;
+    margin-left: 125px;
+    padding: 0px;
+    border-left: 1px solid black;
+}  
+.navbar a {
+    float: left;
+    color: rgb(255, 230, 88);
     text-align: center;
-    border-bottom: 1px solid #555;
-}
-.navPane li a {
-    display: block;
-    color: #8dab7f;
-    padding: 8px 16px;
+    padding: 14px 16px;
+    border-right: 1px solid black;
     text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.navPane li a.active {
-    background-color: #8dab7f;
-    color: #1e2019;
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
 }
-li a:hover:not(.active) {
-    background-color: #555;
+.navbar a.active {
+    background-color: rgb(72, 72, 112);
     color: white;
 }
 
-.row {
-    height: 100%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.sidepane {
-    float: left;
-    width: 10%;
-    background-color: rgb(34, 34, 27);
+.navTab {
+    display: block;
     margin: 0px;
     padding: 0px;
+    height: auto;
+    width: 100%;
+    background-color: #333;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+.column h3 {
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.column p {
+    margin-left: 6%;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    line-height: 1.0em;
+}
+.column img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 70%;
+    box-shadow: -4px 6px 5px rgb(77, 77, 77);
+}
+  
+  /* Clear floats after the columns */
+.row {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* For embed Google Doc */
+.textBox {
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
 }

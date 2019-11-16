@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Home Page -->
+
+<html>
+<link rel="stylesheet" href="styles.css">
+
+    <head>
+        <title>SPC | Tech Used</title>
+    </head>
+
+    <body>
+
+        <div class="header">
+                <h1>Solar Powered Charging Dock:</h1>
+                <h2>Technology Used</h2>
+        </div>
+        <!-- Navigation Bar -->
+        <div class="navTab">
+            <div class="navbar">
+
+                <a href="index.html">Home</a>
+                <a href="presentations.html">Presentations</a>
+                <a href="about.html">About Us</a>
+                <a href="techUsed.html" class="active">Technology Used</a>
+                <a href="blog.html">Team Blog</a>
+                <a href="docs.html">Documents</a>
+
+            </div>
+        </div>
+        <div class="contentImageRight">
+
+            <h2>RFID</h2>
+            <figure>
+                <img src="images/RFID_test.jpg">
+                <figcaption>RFID being tested with Arduino Mega</figcaption>
+            </figure>
+            <p>The current design of the locking mechanism involves using an <a target="_blank" href="https://en.wikipedia.org/wiki/Radio-frequency_identification">RFID</a> scanner. The way this will be implemented is by utilizing the RFID chips that come built into the student ID's provided/obtained by GSU students. These id's are unique to each of the cards.</p>
+            <p>To use the charging station, the student can hold their ID up to the scanner, prompting RFID scanner to obtain their card's number. The microcontroller holds the card's number and waits until the same card is scanned again before releasing the locking mechanism. After the student returns and collects their scooter, the microcontroller deletes the string used to store the number and awaits the next one to be used.</p>
+
+        </div>
+    </body>
+
+
+
+
+</html>
