@@ -88,9 +88,11 @@ body {
     margin-left: 125px;
     text-align: justify;
 }
-.contentImageLeft ul,li {
+.contentImageLeft ul li {
     margin-left: 0px;
+    padding-left: 0px;
 }
+
 .contentImageLeft img {
     float: left;
     width: 600px;
