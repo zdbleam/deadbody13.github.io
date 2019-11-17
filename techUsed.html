@@ -27,8 +27,19 @@
 
             </div>
         </div>
-        <div class="contentImageRight">
 
+        <div class="contentImageRight">
+            <h2>Arduino Mega 2560</h2>
+            <figure>
+                <img src="images/arduinoMega2560.png">
+                <figCaption>Arduino Mega 2560 Pinout</figCaption>
+                <figcaption style="font-size: 12px;width: 600px;"><a target="_blank" href="https://www.theengineeringprojects.com/2018/06/introduction-to-arduino-mega-2560.html">https://www.theengineeringprojects.com/2018/06/introduction-to-arduino-mega-2560.html</a></figcaption>
+            </figure>
+            <p>The <a target="_blank" href="https://www.theengineeringprojects.com/2018/06/introduction-to-arduino-mega-2560.html">Arduino Mega 2560</a> is going to be the main component for controlling power distribution of the charging dock. Though it's not likely that it will transfer the power throughout the system directly, it will control the system of switches and meters that does.</p>
+            <p>This component is also being used for the locking mechanism that will hold a device in place while its owner/user is gone by controlling an RFID scanner.</p>
+        </div>
+
+        <div class="contentImageRight">
             <h2>RFID</h2>
             <figure>
                 <img src="images/RFID_test.jpg">
@@ -36,8 +47,9 @@
             </figure>
             <p>The current design of the locking mechanism involves using an <a target="_blank" href="https://en.wikipedia.org/wiki/Radio-frequency_identification">RFID</a> scanner. The way this will be implemented is by utilizing the RFID chips that come built into the student ID's provided/obtained by GSU students. These id's are unique to each of the cards.</p>
             <p>To use the charging station, the student can hold their ID up to the scanner, prompting RFID scanner to obtain their card's number. The microcontroller holds the card's number and waits until the same card is scanned again before releasing the locking mechanism. After the student returns and collects their scooter, the microcontroller deletes the string used to store the number and awaits the next one to be used.</p>
-
         </div>
+
+
     </body>
 
 

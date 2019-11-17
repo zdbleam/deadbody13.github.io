@@ -21,7 +21,7 @@ body {
 .content h3             {margin-left: 125px;margin-right: 125px;}
 .content h4             {margin-left: 125px;margin-right: 125px;}
 .content p              {margin-left: 125px;margin-right: 125px;margin-top: 0px;line-height: 1.5em;}
-.content ul,li          {margin-left: 100px;margin-right: 125px;}
+.content ul             {margin-left: 125px;margin-right: 125px;}
 .content a              {margin-left: 125px;margin-right: 125px;}
 .content figure {
     display: block;
@@ -84,12 +84,12 @@ body {
 }
 
 .contentImageLeft {
-    margin-right: 50px;
+    margin-right: 125px;
     margin-left: 125px;
     text-align: justify;
 }
 .contentImageLeft ul,li {
-    margin-left: 25px;
+    margin-left: 0px;
 }
 .contentImageLeft img {
     float: left;
@@ -199,7 +199,7 @@ html {
     padding: 14px 16px;
     border-right: 1px solid black;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .navbar a:hover {
@@ -234,6 +234,14 @@ html {
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.column h2 {
+    margin-left: 125px;
+    margin-right: 10px;
+}
+.column a {
+    margin-left: 125px;
+    margin-right: 25px;
+}
 .column p {
     margin-left: 6%;
     margin-right: 5px;
@@ -244,11 +252,16 @@ html {
 }
 .column img {
     display:block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     width: 70%;
     box-shadow: -4px 6px 5px rgb(77, 77, 77);
+}
+.column iframe {
+    margin-left: 1%;
+    width: 98%;
 }
   
   /* Clear floats after the columns */
