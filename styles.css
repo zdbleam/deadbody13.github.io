@@ -60,21 +60,20 @@ body {
 }
 .contentImageRight figure {
     float: right;
+    margin: 0px;
     margin-left: 50px;
     margin-right: 50px;
-    margin: 0px;
-    padding: 0px;
+    width: 40%;
 }
 .contentImageRight figure img {
     float: right;
-    width: 600px;
+    width: 100%;
     margin-left: 50px;
     margin-bottom: 5px;
     box-shadow: -4px 6px 5px rgb(77, 77, 77);
 }
 .contentImageRight figure figcaption {
     padding: 0px;
-    margin-left: 50px;
     font-style: italic;
     font-size: 16px;
 }
@@ -102,16 +101,19 @@ body {
 }
 .contentImageLeft figure {
     float: left;
+    width: 40%;
     margin: 0px;
     margin-right: 50px;
 }
 .contentImageLeft figure img {
     box-shadow: -4px 6px 5px rgb(77, 77, 77);
+    width: 100%;
 }
 .contentImageLeft figure iframe {
     float: left;
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 .contentImageLeft figure figcaption {
     padding: 0px;
