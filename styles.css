@@ -13,16 +13,19 @@ body {
     width: auto;
     padding: 0%;
     margin: 0%;
-    margin-bottom: 200px;
 }
-.content                {margin-top: 50px;}
-.content h1             {margin-left: 125px;margin-right: 125px;}
-.content h2             {margin-left: 125px;margin-right: 125px; margin-bottom: 10px;}
-.content h3             {margin-left: 125px;margin-right: 125px;}
-.content h4             {margin-left: 125px;margin-right: 125px;}
-.content p              {margin-left: 125px;margin-right: 125px;margin-top: 0px;line-height: 1.5em;}
-.content ul             {margin-left: 125px;margin-right: 125px;}
-.content a              {margin-left: 125px;margin-right: 125px;}
+.content {
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.content h2 {
+    margin-bottom: 10px;
+}
+.content p {
+    margin-top: 0px;
+    line-height: 1.5em;
+}
 .content figure {
     display: block;
     float: left;
@@ -43,15 +46,14 @@ body {
 
 .contentImageRight {
     margin-top: 50px;
-    margin-left: 125px;
+    margin-left:  125px;
     margin-right: 125px;
+    margin-bottom: 0px;
     text-align: justify;
-    font-size: 26px;
 }
 .contentImageRight img {
     float: right;
     width: 600px;
-    margin-right: 50px;
     margin-left: 50px;
     margin: 0px;
     padding: 0px;
@@ -66,9 +68,8 @@ body {
 .contentImageRight figure img {
     float: right;
     width: 600px;
-    margin-right: 50px;
     margin-left: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     box-shadow: -4px 6px 5px rgb(77, 77, 77);
 }
 .contentImageRight figure figcaption {
@@ -85,7 +86,7 @@ body {
 
 .contentImageLeft {
     margin-right: 125px;
-    margin-left: 125px;
+    margin-left:  125px;
     text-align: justify;
 }
 .contentImageLeft ul li {
@@ -104,6 +105,9 @@ body {
     margin: 0px;
     margin-right: 50px;
 }
+.contentImageLeft figure img {
+    box-shadow: -4px 6px 5px rgb(77, 77, 77);
+}
 .contentImageLeft figure iframe {
     float: left;
     margin: 0px;
@@ -120,11 +124,11 @@ body {
     clear: both;
 }
 
-/* For documents page */
-.documents      {margin-top: 50px;}
-.documents p    {margin-left: 125px;margin-right: 200px;}
-.documents a    {margin-left: 150px;margin-right: 200px;line-height: 1.5em;}
-.documents h3   {margin-left: 125px;margin-right: 200px;}
+footer {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, white, rgb(97, 97, 97));
+}
 
 /* Header */
 .header {
@@ -209,8 +213,8 @@ html {
     color: black;
 }
 .navbar a.active {
-    background-color: rgb(72, 72, 112);
-    color: white;
+    background-color: rgb(156, 141, 55);
+    color: black;
 }
 
 .navTab {
@@ -259,7 +263,16 @@ html {
     margin-right: auto;
     margin-bottom: 20px;
     width: 70%;
+    box-shadow: -4px 6px 5px rgb(187, 181, 181);
+}
+.column figure img {
+    margin-bottom: 10px;
     box-shadow: -4px 6px 5px rgb(77, 77, 77);
+}
+.column figure figcaption {
+    padding: 0px;
+    font-style: italic;
+    font-size: 16px;
 }
 .column iframe {
     margin-left: 1%;
@@ -271,6 +284,11 @@ html {
     width: 100%;
     margin: 0px;
     padding: 0px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* For embed Google Doc */
